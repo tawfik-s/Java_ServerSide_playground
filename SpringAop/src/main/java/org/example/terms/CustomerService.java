@@ -1,5 +1,7 @@
 package org.example.terms;
 
+import java.util.List;
+
 public interface CustomerService {
-    void doSomeThing();
+    List<String> doSomeThing(String name);
 }
